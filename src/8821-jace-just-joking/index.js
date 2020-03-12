@@ -8,7 +8,7 @@ const view = (state, {updateState}) => {
 	);
 };
 
-createCustomElement('hello-world', {
+createCustomElement('just-joking', {
 	renderer: {type: snabbdom},
 	view,
 	styles
